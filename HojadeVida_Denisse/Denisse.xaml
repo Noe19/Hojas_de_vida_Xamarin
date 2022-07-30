@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HojadeVida_Denisse.Page1">
+    <ScrollView HeightRequest="10990">
+
+        <StackLayout BackgroundColor="#263238" HeightRequest="900">
+
+      
+           
+
+
+        <Frame VerticalOptions="FillAndExpand"
+                   Margin="20"
+                   CornerRadius="15"
+                   HasShadow="False">
+                <StackLayout >
+                <Label Text="Hoja de vida" HorizontalTextAlignment="Center" TextColor="Black" FontSize="25"/>
+                <Image Source="https://acortar.link/PzgGDN" WidthRequest="150"/>
+               
+                <Label Text="Datos Personales:"  FontSize="Medium"  FontAttributes="Bold" />
+                    <Label Text="Nombre :Denisse Cumbal " FontSize="14" />
+            <Label Text="Fecha de nacimiento: 19/04/2000" FontSize="14" />
+            <Label Text="Estado Civil: Soltera" FontSize="14" />
+            <Label Text="Correo electrónico: denissecumbal2015@hotmail.com" FontSize="14" />
+            <Label Text="Contacto: 0995135081" FontSize="14" />
+            <Label Text="Ciudad: Quito-Ecuador" FontSize="14" />
+
+            <Label Text="Direccion: Carapungo Etapa E bajo " FontSize="14" />
+                
+
+           
+                        <Label Text="Experiencia Laboral:" FontSize="Medium"   FontAttributes="Bold"/>
+                    <Label Text="Mantenimiento de Computadoras "/>
+                    <Label Text="Actualizacion de Contendido en paginas Web (Joomla) en la Escuela Politécnica Nacional" />
+
+
+
+
+                        <Label Text="Conocimientos:" FontSize="Medium"  FontAttributes="Bold" />
+                    <Label Text="Desarrollo Web y Móvil "/>
+                    <Label Text="Power BI" />
+
+
+                        <Label Text="Destrezas:" FontSize="Medium"  FontAttributes="Bold" />
+                    <Label Text="Manejo de GitHub "/>
+                    <Label Text="Manejo del Sistema Operativo Ubuntu"
+                         
+                           />
+             
+            </StackLayout>
+        </Frame>
+           
+      
+        <Button Text="Regresar"
+                        BackgroundColor="Silver"
+                        CornerRadius="10" Clicked="Button_Regresar_Clicked"/>
+        
+    </StackLayout>
+        </ScrollView>
+</ContentPage>

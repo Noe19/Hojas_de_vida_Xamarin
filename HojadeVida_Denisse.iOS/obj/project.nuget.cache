@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UUXmzMDTFepTSVv2g3dbaDtMCso/GyMul4QBakYfCuhKg+2EVClT+grJrdbzNnn0urSRHOi+TMzCqVZszkq/pA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CUMBAL\\source\\repos\\HojadeVida_Denisse\\HojadeVida_Denisse\\HojadeVida_Denisse.iOS\\HojadeVida_Denisse.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CUMBAL\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\CUMBAL\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\CUMBAL\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

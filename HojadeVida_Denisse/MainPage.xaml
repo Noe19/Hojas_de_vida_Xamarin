@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HojadeVida_Denisse.MainPage"
+    NavigationPage.HasNavigationBar="False">
+    <ScrollView HeightRequest="10990">
+        <StackLayout Orientation="Vertical" BackgroundColor="#1E90FF" HeightRequest="2000">
+        <Label Text="Estudiantes" 
+               FontSize="20"
+               FontAttributes="Bold"
+               Margin="0,30,0,0"
+               HorizontalOptions="CenterAndExpand"/>
+        <Frame VerticalOptions="FillAndExpand" 
+                   Margin="20,10,20,10"
+               CornerRadius="20"
+               HasShadow="False">
+            <StackLayout VerticalOptions="Center" Spacing="2">
+                
+                <Image Source="https://acortar.link/PzgGDN" />
+               
+                
+                <Label Text="Denisse Cumbal "
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Button Text="Ver Informacion"
+                        BackgroundColor="Silver"
+                        CornerRadius="10" Clicked="btn_Denisse" />
+            </StackLayout>
+        </Frame>
+
+
+            
+            <Frame VerticalOptions="FillAndExpand" 
+           Margin="20,10,20,10"
+               CornerRadius="20"
+               HasShadow="False">
+                <StackLayout VerticalOptions="Center" Spacing="2">
+                    <Image Source="https://n9.cl/si112" />
+                    <Label Text="Iván Fraga "
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                    <Button Text="Ver Informacion"
+                        BackgroundColor="Silver"
+                        CornerRadius="10" Clicked="btn_Ivan" />
+                </StackLayout>
+            </Frame>
+
+        <Frame VerticalOptions="FillAndExpand" 
+           Margin="20,10,20,10"
+               CornerRadius="20"
+               HasShadow="False">
+            <StackLayout VerticalOptions="Center" Spacing="2">
+                <Image Source="https://n9.cl/mej2f" />
+                <Label Text="Paúl Guala "
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Button Text="Ver Informacion"
+                        BackgroundColor="Silver"
+                        CornerRadius="10"  Clicked="btn_Paul"/>
+            </StackLayout>
+        </Frame>
+
+            <Frame VerticalOptions="FillAndExpand" 
+           Margin="20,10,20,10"
+               CornerRadius="20"
+               HasShadow="False">
+                <StackLayout VerticalOptions="Center" Spacing="2">
+                    <Image Source="https://img.freepik.com/vector-premium/dibujos-animados-perfil-mujer_18591-58475.jpg" />
+                    <Label Text="Noemi Ganchozo"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                    <Button Text="Ver Informacion"
+                        BackgroundColor="Silver"
+                        CornerRadius="10"  Clicked="btn_Noemi"/>
+                </StackLayout>
+            </Frame>
+
+
+
+
+
+
+
+
+
+        </StackLayout>
+
+
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HojadeVida_Denisse.Ivan">
+    <StackLayout BackgroundColor="#263238">
+        <Label Text="Curriculum - Iván Fraga"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   Margin="0,20,0,0"
+                   HorizontalOptions="Center"
+                   TextColor="White"
+        />
+
+        <Frame VerticalOptions="FillAndExpand"
+                   Margin="20"
+                   CornerRadius="30"
+                   HasShadow="False">
+            <StackLayout>
+                <Image Source="https://i.ibb.co/tQX9wBL/profile.jpg" WidthRequest="150"/>
+                <Label Text="'La constancia vence al talento'"
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold"
+                       FontSize="15"/>
+                <Label Text="Datos personales"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="Black"/>
+                <Label Text="> Edwin Iván Fraga Tana"/>
+                <Label Text="> 21 Años"/>
+                <Label Text="> Ecuatoriano"/>
+                <Label Text="Contacto"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="Black"/>
+                <Label Text="> edwin.fraga@epn.edu.ec"/>
+                <Label Text="> 0912345689"/>
+                <Label Text="Académico"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="Black"/>
+                <Label Text="> Desarrollador de Software - EPN"/>
+                <Label Text="> Ingles C1 - CEC"/>
+
+            </StackLayout>
+            
+        </Frame>
+        <Button Text="Regresar"
+                        BackgroundColor="Silver"
+                        CornerRadius="10" Clicked="Button_Regresar_Clicked"/>
+    </StackLayout>
+</ContentPage>
